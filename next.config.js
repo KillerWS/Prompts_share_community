@@ -17,7 +17,8 @@ const nextConfig = {
           },
         ],
       },
-
+    
+    //此处是webpack的配置项
     webpack(config) {
       config.experiments = {
         ...config.experiments,

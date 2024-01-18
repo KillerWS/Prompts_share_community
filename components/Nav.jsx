@@ -25,7 +25,7 @@ const Nav = () => {
         setUpProviders();
     },[])
 
-    console.log(providers)
+    //console.log(providers)
   return (
     <nav className="flex-between w-full mb-16 pt-3">
         <Link href="/" className='flex gap-2 flex-center'>
@@ -91,7 +91,7 @@ const Nav = () => {
                         alt="profile"
                         width={37}
                         height={37}
-                        className='rounded-full'
+                        className='rounded-full cursor-pointer'
                         onClick={()=> setToggleDropdown((prev)=> !prev)}
                         />
                         {toggleDropdown && (

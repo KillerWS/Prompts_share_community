@@ -1,7 +1,10 @@
 import { connectToDB } from "@utils/database";
 import Prompt from '@models/prompt'
 
+
+//创建新的Post
 export const POST  = async(req, res) => {
+    //获取数据
     const {userId, prompt, tag } = await req.json();
 
     try {

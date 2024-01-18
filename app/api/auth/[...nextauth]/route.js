@@ -58,7 +58,7 @@ const handler = NextAuth({
                         email:profile.email,
                         username:profile.name.replace(" ","").
                         toLowerCase(),
-                        image:profile.pictrue
+                        image:profile.picture
                     })
                 }
                 //if not, create a new user

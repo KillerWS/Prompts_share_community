@@ -48,7 +48,7 @@ const Form = ({
 
                 <input
                     value={post.tag}
-                    onChange={()=> setPost({...post,
+                    onChange={(e)=> setPost({...post,
                     tag: e.target.value})}
                     placeholder='#tag'
                     required
